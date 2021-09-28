@@ -1,0 +1,30 @@
+body{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    background-color: dodgerblue;
+    color: white;
+    overflow: scroll;
+}
+
+.tsMiddle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.jokeText{
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+}
